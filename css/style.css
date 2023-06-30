@@ -11,27 +11,35 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-/*-------DEBUG---------*/
-
-.debug{
-
-    background-color: aqua;
-    border: 3px dashed red;
+body{
+    background-color: lightcoral;
 }
 
-.debug header{
-    background-color: goldenrod;
-    border: 3px dotted green;
+.love-container{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
-.debug main{
-    background-color: crimson;
-    border: 3px solid blue;
+.my-img-container{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
-.debug footer{
-    background-color: darkorange;
-    border: 3px dashed blueviolet;
+    
+
+img{
+    width: 100%;
+
+
+    --_m:
+        radial-gradient(at 70% 31%,white 29%,#0000 30%),
+        radial-gradient(at 30% 31%,white 29%,#0000 30%),
+        linear-gradient(#000 0 0) bottom/100% 50% no-repeat;
+    -webkit-mask: var(--_m);
+            mask: var(--_m);
+    clip-path: polygon(-42% 0,50% 91%, 142% 0);
 }
+      
